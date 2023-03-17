@@ -95,6 +95,10 @@ a {
     color: #131314;
 }
 
+.main_e-mail a:hover {
+    color: #EEE ;
+}
+
 .circle_left {
     position: absolute;
     left: 28.75%;
