@@ -1,0 +1,88 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+
+body {
+    background-color: #131314;
+    color: #EEE;
+}
+
+button {
+    color: #EEE;
+}
+
+/* 2. Typography Styles
+======================================== */
+
+/* 3. Structure Styles
+======================================== */
+
+/* 4. Module Styles
+======================================== */
+
+/* Site Navigation */
+
+.nav_about_me {
+        width:100%;
+        height: 5.3125rem;
+        position:relative;
+        top: 0;
+    
+}
+
+/* Site Footer */
+
+.about_me_footer {
+    position: relative;
+}
+
+/* 5. Component Styles
+======================================== */
+
+.about_me_main {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5.125rem 0 10.375rem 0;
+}
+
+.self {
+    display: flex;
+    position: relative;
+    left: 9.125rem;
+    box-shadow: -2.5rem 2.5rem #14B830;
+}
+
+.about_me_title {
+    text-align: center;
+    padding-bottom: 3.125rem;
+}
+
+.about_me {
+    position: relative;
+    right: 9.125rem;
+    text-align: justify;
+    width: 41rem;
+    height: auto;
+}
+
+.skills {
+    text-align: center;
+    padding: 3.125rem 0;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 41rem;
+}

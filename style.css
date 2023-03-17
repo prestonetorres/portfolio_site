@@ -1,0 +1,233 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+
+/* 1. Global Styles
+======================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    background-color: hsla(0, 0, 93, 1);
+}
+
+html {
+    font-size: 16px;
+    font-family: Wagon;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+h1 {
+    font-size: 9.375rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+button {
+    width: 17.5rem;
+    height: 5.3125rem;
+    border-radius: 3.125rem;
+    border: none;
+    background-color: transparent;
+    color: hsla(217, 10, 25, 1);
+    font-family:Wagon;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;   
+}
+
+button:hover {
+    background-color: #14B830;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #14B830;
+}
+
+/* button:hover {
+    background-color: hsla(130, 80, 40, 1);
+} */
+
+/* button:active {
+    background-color: hsla(130, 80, 40, 1);
+} */
+
+/* 2. Typography Styles
+======================================== */
+
+/* 3. Structure Styles
+======================================== */
+
+/* 4. Module Styles
+======================================== */
+
+/* Site Navigation */
+
+header { 
+	width:100%;
+	height:auto;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_title { 
+	color: hsla(216, 2, 8, 1);
+	width:auto;
+	height:180px;
+    margin: 12.0625rem auto;
+	font-family:Dx Sitrus;
+	text-align:center;
+	letter-spacing:-5.5;
+}
+nav { 
+	width:100%;
+	height:85px;
+	position:absolute;
+	left:18px;
+	top:459px;
+}
+
+
+.version { 
+	width:100%;
+	height: auto;
+	position:absolute;
+	left: 92.5%;
+	top:0rem;
+}
+
+.folio { 
+	color: hsla(216, 2, 8, 1);
+	width:70px;
+	height:18px;
+	position:absolute;
+	left:20px;
+	top:30px;
+	font-family:Wagon;
+	text-align:center;
+	font-size:16px;
+}
+
+/* Site Footer */
+
+footer {
+    display: inline flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    position: relative;
+    bottom: 0rem;
+    width: 100%;
+    margin: 1rem 2.5rem .625rem 90%;
+}
+
+/* 5. Component Styles
+======================================== */
+
+.message { 
+	width:313px;
+	height:90px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.message_txt { 
+	color: hsla(216, 2, 8, 1);
+	width:237px;
+	height:36px;
+	position:absolute;
+	left:59px;
+	top:27px;
+	font-family:Wagon;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.radar { 
+	width:31px;
+	height:31px;
+	position:absolute;
+	left:1rem;
+	top: 1.875rem;
+}
+
+main { 
+    display: inline-flex;
+	width:100%;
+	height:auto;
+	position:relative;
+}
+.key { 
+    margin-top: 4.625rem;
+    margin-left: 8.625rem;
+}
+
+.dagger { 
+    margin-top: 4.625rem;
+    margin-left: auto;
+    margin-right: 8.625rem;
+}
+
+figure {
+    display: inline-flex;
+    flex-direction: column;
+    width: 13.5rem;
+    padding: 1rem;
+    align-items: center;	
+    text-align: center;
+}
+
+figure img {
+    margin-bottom: .625rem;
+}
+
+figcaption { 
+	color:rgba(18.72656174004078, 19.045313335955143, 19.523439779877663, 1);
+    width: 13.5rem;
+    margin-top: .625rem;
+}
+
+.landing_content { 
+    display: flex;
+    position: relative;
+    background-image: url(./Images/Landing_Image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30rem 100%;
+	width: 100%;
+	height: 25rem;
+    bottom: 4rem;
+}
