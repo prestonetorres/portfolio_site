@@ -95,6 +95,45 @@ h4 {
 /* 2. Typography Styles
 ======================================== */
 
+@font-face {
+    font-family: 'DX Sitrus';
+    src: url('./Utilities/main_title_webfontkit/dxsitrus-expanded.woff2') format('woff2'),
+         url('./Utilities/main_title_webfontkit/dxsitrus-expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wagon Bold';
+    src: url('./Utilities/portfolio_font_webkit/wagon-bold.woff2') format('woff2'),
+         url('./Utilities/portfolio_font_webkit/wagon-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Wagon Extra Light';
+    src: url('./Utilities/portfolio_font_webkit/wagon-extralight.woff2') format('woff2'),
+         url('./Utilities/portfolio_font_webkit/wagon-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Wagon Extra Light Italic';
+    src: url('./Utilities/portfolio_font_webkit/wagon-extralightitalic.woff2') format('woff2'),
+         url('./Utilities/portfolio_font_webkit/wagon-extralightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /* 3. Structure Styles
@@ -312,7 +351,7 @@ footer {
 	position:absolute;
 	left:59px;
 	top:27px;
-	font-family:Wagon;
+	font-family: 'Wagon';
 	text-align:left;
 	font-size:16px;
 	letter-spacing:0;
