@@ -27,7 +27,7 @@ h3 {
 
 a {
     color: #EEE;
-    font-family: Wagon;
+    font-family: 'Wagon Bold';
 }
 
 /* 3. Structure Styles
@@ -73,6 +73,10 @@ a {
     display: inline-flex;
     flex-direction: column;
     text-align: center;
+    font-variant-ligatures: discretionary-ligatures;
+    font-feature-settings: 'calt';
+    -moz-font-feature-settings: 'calt';
+    -webkit-font-feature-settings: 'calt';
     width: 100%;
     height: auto;
     position: relative;
@@ -91,7 +95,7 @@ a {
 
 .main_e-mail a {
     padding: 1.875rem 0 1rem 0;
-    font-weight: bold;
+    font-family: 'Wagon Bold';
     color: #131314;
 }
 

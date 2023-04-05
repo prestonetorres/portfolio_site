@@ -42,11 +42,13 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-family: 'Wagon Bold';
     text-transform: uppercase;
 }
 
 h4 {
     font-size: 1.25rem;
+    font-family: 'Wagon Bold';
 }
 
 .btn {
@@ -55,10 +57,10 @@ h4 {
     border-radius: 3.125rem;
     border: none;
     color: hsla(217, 10, 25, 1);
-    font-family: 'Wagon';
+    font-family: 'Wagon Bold';
     text-align: center;
     font-size: 1.25rem;
-    font-weight: bold;  
+    /* font-weight: bold;   */
     
     background: linear-gradient(to right, #14B830 50%, transparent 50%);
     background-size: 200% 100%;
@@ -115,7 +117,7 @@ h4 {
 
 
 @font-face {
-    font-family: 'Wagon Extra Light';
+    font-family: 'Wagon';
     src: url('./Utilities/portfolio_font_webkit/wagon-extralight.woff2') format('woff2'),
          url('./Utilities/portfolio_font_webkit/wagon-extralight.woff') format('woff');
     font-weight: normal;
@@ -133,7 +135,9 @@ h4 {
     font-style: normal;
 }
 
-
+strong {
+    font-family: 'Wagon Bold';
+}
 
 
 /* 3. Structure Styles
@@ -168,6 +172,10 @@ header ul {
     margin: 12.0625rem auto;
 	font-family: 'DX Sitrus';
 	text-align:center;
+    font-variant-ligatures: discretionary-ligatures;
+    font-feature-settings: 'salt' 1;
+    -moz-font-feature-settings: 'salt' 1;
+    -webkit-font-feature-settings: 'salt' 1;
 	letter-spacing:-5.5;
 
 }
